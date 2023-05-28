@@ -1,18 +1,8 @@
 // Format SatSchedule
 class scheduleEvent {
-    constructor(title, start, end, track) {
+    constructor(title, start) {
         this.title = title;
         this.startTime = start;
-        
-        if (track == undefined){
-          this.end = null
-          this.track = end;
-        }
-        else{
-          this.endTime = end;
-          this.track = track;
-        }
-        
     }
 
 }
@@ -81,51 +71,51 @@ saturday.forEach(function(ev, index){
 str += '</tbody>';
 window.document.getElementById("saturdayContainer").innerHTML = str;
 
-var str = '<tbody>';
-str +=  '<tr><th>Date</th><th>Main track</th></tr>';
-sunday.forEach(function(ev, index){
-  if (index ==0  || (sunday[index-1].startTime != ev.startTime || sunday[index-1].track == ev.track) ){     
-    str += '<tr>';
-    if (ev.track == 'ws'){
+// var str = '<tbody>';
+// str +=  '<tr><th>Date</th><th>Main track</th></tr>';
+// sunday.forEach(function(ev, index){
+//   if (index ==0  || (sunday[index-1].startTime != ev.startTime || sunday[index-1].track == ev.track) ){     
+//     str += '<tr>';
+//     if (ev.track == 'ws'){
 
-        str += '<th></th>';
-        str += '<td></td>';
-    }
+//         str += '<th></th>';
+//         str += '<td></td>';
+//     }
     
     
 
-  str += '<th>';
+//   str += '<th>';
 
-  str += ev.startTime 
-  if (ev.endTime){
-    str+='<br />|<br />' + ev.endTime;
-  }
-  str += '</th>';
-  str += '<td>';
-  str += ev.title + '';
-  str += '</td>';
+//   str += ev.startTime 
+//   if (ev.endTime){
+//     str+='<br />|<br />' + ev.endTime;
+//   }
+//   str += '</th>';
+//   str += '<td>';
+//   str += ev.title + '';
+//   str += '</td>';
   
-  if (ev.track == 'main'){
-    if (index != sunday.length-1 && ev.startTime == sunday[index+1].startTime && ev.track != sunday[index+1].track){
-        str += '<th>';
-        str+=sunday[index+1].startTime
-        if(sunday[index+1].endTime){
-        str +=  '<br />|<br />' + sunday[index+1].endTime;
-      }
+//   if (ev.track == 'main'){
+//     if (index != sunday.length-1 && ev.startTime == sunday[index+1].startTime && ev.track != sunday[index+1].track){
+//         str += '<th>';
+//         str+=sunday[index+1].startTime
+//         if(sunday[index+1].endTime){
+//         str +=  '<br />|<br />' + sunday[index+1].endTime;
+//       }
     
-  str += '</th>';
-  str += '<td>' + sunday[index+1].title+ '</td>';
+//   str += '</th>';
+//   str += '<td>' + sunday[index+1].title+ '</td>';
     
-  }
-  else{
-  str +='<th></th>';
-  str += '<td></td>';
-  }}
+//   }
+//   else{
+//   str +='<th></th>';
+//   str += '<td></td>';
+//   }}
   
-  str += '</tr>';
+//   str += '</tr>';
   
-  }
+//   }
 
-});
-str += '</tbody>';
-window.document.getElementById("sundayContainer").innerHTML = str;
+// });
+// str += '</tbody>';
+// window.document.getElementById("sundayContainer").innerHTML = str;
