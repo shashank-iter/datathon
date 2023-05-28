@@ -169,7 +169,10 @@ header, section {
 .row::after {
   content: "";
   clear: both;
-  display: table;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .title {
