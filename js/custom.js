@@ -20,6 +20,7 @@ class scheduleEvent {
 var saturday = [];
 var sunday = [];
 
+
 // track = {main, ws} where ws is workshop
 saturday.push(new scheduleEvent("Registration Opens", "29<sup>th</sup> May <br>20:00 HRS", "main"));
 saturday.push(new scheduleEvent("Kick-Off Session", "4<sup>th</sup> June <br>20:00 HRS", "main"));
