@@ -17,8 +17,8 @@ saturday.push(new scheduleEvent("Registration Closes", "9<sup>th</sup> June <br>
 saturday.push(new scheduleEvent("Kick-Off Session", "9<sup>th</sup> June <br>20:00 IST", "main"));
 saturday.push(new scheduleEvent("Round 1 starts", "9<sup>th</sup> June <br>23:59 IST", "main"));
 saturday.push(new scheduleEvent("Round 1 closes", "11<sup>th</sup> June <br>23:59 IST", "main"));
-saturday.push(new scheduleEvent("Round 2 ", "12<sup>th</sup> June <br>", "main"));
-saturday.push(new scheduleEvent("Result ", "12<sup>th</sup> June <br> ", "main"));
+saturday.push(new scheduleEvent("Round 2 ", "13<sup>th</sup> June <br>", "main"));
+saturday.push(new scheduleEvent("Result ", "13<sup>th</sup> June <br> ", "main"));
 
 // sunday.push(new scheduleEvent("No workshops today", "00:00", "17:00", "ws"));
 
