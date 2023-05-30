@@ -12,18 +12,18 @@ var sunday = [];
 
 
 // track = {main, ws} where ws is workshop
-saturday.push(new scheduleEvent("Registration Opens", "29<sup>th</sup> May <br>20:00 HRS", "main"));
-saturday.push(new scheduleEvent("Kick-Off Session", "4<sup>th</sup> June <br>20:00 HRS", "main"));
-saturday.push(new scheduleEvent("Registration Closes", "5<sup>th</sup> June <br>15:00 HRS", "main"));
-saturday.push(new scheduleEvent("Round 1 starts", "5<sup>th</sup> June <br>23:59 HRS", "main"));
-saturday.push(new scheduleEvent("Round 1 closes", "8<sup>th</sup> June <br>13:00 HRS", "main"));
+saturday.push(new scheduleEvent("Registration Opens", "31<sup>st</sup> May <br>15:00 IST", "main"));
+saturday.push(new scheduleEvent("Registration Closes", "9<sup>th</sup> June <br>15:00 IST", "main"));
+saturday.push(new scheduleEvent("Kick-Off Session", "9<sup>th</sup> June <br>20:00 IST", "main"));
+saturday.push(new scheduleEvent("Round 1 starts", "9<sup>th</sup> June <br>23:59 IST", "main"));
+saturday.push(new scheduleEvent("Round 1 closes", "11<sup>th</sup> June <br>23:59 IST", "main"));
 saturday.push(new scheduleEvent("Round 2 ", "12<sup>th</sup> June <br>", "main"));
 saturday.push(new scheduleEvent("Result ", "12<sup>th</sup> June <br> ", "main"));
 
 // sunday.push(new scheduleEvent("No workshops today", "00:00", "17:00", "ws"));
 
 // saturday.sort((a,b) => (a.startTime >= b.startTime) ? 1: -1);
-sunday.sort((a,b) => (a.startTime >= b.startTime) ? 1 : -1 );
+// sunday.sort((a,b) => (a.startTime >= b.startTime) ? 1 : -1 );
 
 var str = '<tbody>';
 str +=  '<tr><th>Date</th><th>Main track</th></tr>';
