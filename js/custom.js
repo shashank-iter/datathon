@@ -12,13 +12,14 @@ var sunday = [];
 
 
 // track = {main, ws} where ws is workshop
-saturday.push(new scheduleEvent("Registration Opens", "31<sup>st</sup> May <br>15:00 IST", "main"));
-saturday.push(new scheduleEvent("Registration Closes", "9<sup>th</sup> June <br>15:00 IST", "main"));
+saturday.push(new scheduleEvent("Registration Opens", "1<sup>st</sup> June <br>12:00 IST", "main"));
+saturday.push(new scheduleEvent("Registration Closes", "9<sup>th</sup> June <br>12:00 IST", "main"));
 saturday.push(new scheduleEvent("Kick-Off Session", "9<sup>th</sup> June <br>20:00 IST", "main"));
 saturday.push(new scheduleEvent("Round 1 starts", "9<sup>th</sup> June <br>23:59 IST", "main"));
 saturday.push(new scheduleEvent("Round 1 closes", "11<sup>th</sup> June <br>23:59 IST", "main"));
+saturday.push(new scheduleEvent("Round 1 Results", "12<sup>th</sup> June <br>13:00 IST", "main"));
 saturday.push(new scheduleEvent("Round 2 ", "13<sup>th</sup> June <br>", "main"));
-saturday.push(new scheduleEvent("Result ", "13<sup>th</sup> June <br> ", "main"));
+saturday.push(new scheduleEvent("Final Result ", "13<sup>th</sup> June <br> ", "main"));
 
 // sunday.push(new scheduleEvent("No workshops today", "00:00", "17:00", "ws"));
 
